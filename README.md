@@ -1,12 +1,12 @@
 # systemjs-starter
 
-A starter app/site template using the [SystemJS](https://github.com/systemjs/systemjs)
+A basic app/site template using the [SystemJS](https://github.com/systemjs/systemjs)
 module loader, [Handlebars](http://handlebarsjs.com/) for templates and 
 [(Node-)Sass](https://github.com/sass/node-sass) as CSS preprocessor.
 
 # installation
 
-Just a `npm install` should do the trick.
+Just an `npm install` should do the trick.
 
 # running
 
