@@ -24,7 +24,7 @@ in `src/`.
 on which you can visit the site at [localhost:9090](http://localhost:9090).
 
 This site has a self executing JavaScript bundle that holds no dependency on any
-framework any more. You can deploy to your live site.
+framework any more. You can deploy the contents of this folder to your live site.
 
 You can run `npm run watch:prod` to rebuild the dist folder's contents on any change
 in `src/`.
