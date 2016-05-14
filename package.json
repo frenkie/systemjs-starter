@@ -29,7 +29,7 @@
     "css:prod": "node-sass src/sass/style.scss --output dist/css",
     "html:prod": "mustang -j '{\"dev\":false}' -t src/index.tmpl -o dist/index.html",
     "script:prod": "node build.sfx.js",
-    "watch:prod": "nodemon --watch src/ --exec npm run build:prod",
+    "watch:prod": "nodemon --watch src/ -e js,scss,tmpl --exec npm run build:prod",
     "preprod": "npm run build:prod",
     "prod": "http-server dist/ -p 9090"
   }
