@@ -28,3 +28,8 @@ framework any more. You can deploy the contents of this folder to your live site
 
 You can run `npm run watch:prod` to rebuild the dist folder's contents on any change
 in `src/`.
+
+# now what?
+Yes, that's up to you. Add a SASS framework for easy grids, add something like
+[Stapes](http://hay.github.io/stapes/) for simple MVC apps, swap Handlebars for
+[React](https://facebook.github.io/react/).
